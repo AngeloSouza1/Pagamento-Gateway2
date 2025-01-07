@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.payment-form-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #f7f7f7, #ffffff);
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #00529b; /* Azul MercadoPago */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.payment-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input,
+select {
+  width: 93%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+select {
+  width: 98%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+
+input:focus,
+select:focus {
+  border-color: #00529b;
+  outline: none;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  background-color: #ffcc00; /* Amarelo MercadoPago */
+  color: #333333;
+  font-size: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+payments
+.error {
+  color: #d32f2f;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.logout-user-button {
+  position: absolute;
+  top: 10px; /* Alinhado ao topo */
+  right: 10px; /* Alinhado à direita */
+  background-color: #02074d;
+  color: #fff;
+  padding: 3px 8px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20x; 
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+  display: inline-block; 
+  width: auto; 
+  height: auto; 
+}
+
+.logout-user-button:hover {
+  background-color: #d32f2f;
+}
+
